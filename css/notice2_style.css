@@ -1,0 +1,45 @@
+h2{
+    font-size: 50px;
+    font-weight: 5px;
+    text-align: center;
+    padding: 80px 0 20px;
+}
+.zone{
+    width: 1400px;;
+    margin: 0 auto;
+    padding: 50px;
+}
+.zone>h3{
+    font-size: 35px;
+}
+.zone li{
+    font-size: 20px;
+    list-style: square;;
+    padding: 10px;
+}
+
+table{
+    width: 1400px;
+    border-collapse: collapse;
+    border-top:#000 solid 2px;
+}
+.category{
+    padding-left: 30px;
+}
+th{
+    padding: 10px;
+    background-color: lightgray;
+}
+table img{
+    width: 10px;
+    padding: 0 15px 3px 5px;
+}
+td{
+    padding: 13px;
+    text-align: center;
+    border-top: rgba(107, 107, 107, 0.63) solid 2px;
+    border-bottom: rgba(107, 107, 107, 0.63) solid 2px;
+}
+.zone a:hover{
+    color: cornflowerblue;
+}

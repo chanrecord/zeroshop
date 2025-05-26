@@ -1,0 +1,181 @@
+.zzim{
+    text-align: right;
+}
+.zzim img{
+    width: 20px;
+    padding: 13px 15px 5px 0;
+}
+.for_earth{ 
+    position: relative;
+}
+.for_earth img{
+    width: 1905px;
+}
+.earth_text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+}
+.lifestyle{
+    text-align: center;
+    padding: 400px 0 300px 0;
+    position: relative;
+}
+.lifestyle img{
+    width: 1905px;
+}
+.lifestyle_text{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: black;
+}
+.lifestyle_text>span{
+    color: rgb(19, 185, 19);
+    font-style: oblique;
+}
+
+.goods{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 300px;
+}
+.hardpaste{
+    width: 600px; height: 800px;
+    background-image: url(./../img/hardpaste1.jpg);
+    background-size: cover;
+}
+.hardpaste:hover{
+    background-image: url(./../img/hardpaste2.jpg);
+    transition-duration: 0.5s;
+}
+.toothpaste{
+    width: 600px; height: 800px;
+    background-image: url(./../img/toothpaste2.jpg);
+    background-size: cover;
+}
+.toothpaste:hover{
+    background-image: url(./../img/toothpaste1.jpg);
+    transition-duration: 0.5s;
+}
+.shampoobar{
+    width: 600px; height: 800px;
+    background-image: url(./../img/shampoobar1.jpg);
+    background-size: cover;
+}
+.shampoobar:hover{
+    background-image: url(./../img/shampoobar2.jpg);
+    transition-duration: 0.5s;
+}
+
+.goods p{
+    font-size: 18px;
+    padding: 3px 0 5px 0;
+}
+.goods h3{
+    font-size: 26px;
+    color: rgb(54, 0, 155);
+}
+.with{
+    padding-bottom: 300px;
+}
+.with>article{
+    display: flex;
+}
+
+.with_txt{
+    padding-top: 190px;
+    padding-left: 50px;
+}
+.with img{  
+    width: 1000px;
+}
+.with p{
+    font-size: 18px;
+}
+
+
+.more{
+    text-align: center;
+    padding: 10px;
+}
+.goods2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.mug_cup{
+    width: 370px; height: 466px;
+    background-image: url(./../img/mug_cup.jpg);
+    background-size: cover; 
+}
+
+.woodset{
+    width: 370px; height: 466px;
+    background-image: url(./../img/woodset1.jpg);
+    background-size: cover;
+}
+.woodset:hover{
+    background-image: url(./../img/woodset2.jpg);
+    transition-duration: 0.5s;
+}
+
+.lunchbox{
+    width: 370px; height: 466px;
+    background-image: url(./../img/lunchbox1.jpg);
+    background-size: cover;
+}
+.lunchbox:hover{
+    background-image: url(./../img/lunchbox2.jpg);
+    transition-duration: 0.5s;
+}
+
+.toothbrush{
+    width: 370px; height: 466px;
+    background-image: url(./../img/toothbrush1.jpg);
+    background-size: cover;
+}
+.toothbrush:hover{
+    background-image: url(./../img/toothbrush2.jpg);
+    transition-duration: 0.5s;
+}
+
+.gomu{
+    width: 370px; height: 466px;
+    background-image: url(./../img/gomu1.jpg);
+    background-size: cover;
+}
+.gomu:hover{
+    background-image: url(./../img/gomu2.jpg);
+    transition-duration: 0.5s;
+}
+
+.recycle{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 200px;
+}
+.recycle img{
+    width: 600px; height: 400px;
+}
+.recycle h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.more_learn{
+    width: 130px; height: 52px;
+    margin: 0 auto;
+    background-image: url(./../img/more_learn1.png);
+    background-size: cover;
+}
+.more_learn:hover{
+    background-image: url(./../img/more_learn2.png);
+    transition-duration: 0.5s;
+}
