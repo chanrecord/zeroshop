@@ -27,33 +27,15 @@
 .lifestyle img{
     width: 1905px;
 }
-.lifestyle_text>span{
-    color: rgb(19, 185, 19);
-    font-style: oblique;
-}
-.lifestyle_text {
-    position: relative;
+.lifestyle_text{
+    position: absolute;
     top: 50%;
     left: 5%;
     color: black;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 24px;
 }
-
-.lifestyle_text::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    width: 0;
-    height: 2px;
-    background: #000;
-    transition: width 0.4s ease;
-}
-
-.lifestyle_text:hover::after {
-    width: 100%;
+.lifestyle_text>span{
+    color: rgb(19, 185, 19);
+    font-style: oblique;
 }
 .goods{
     display: flex;
@@ -196,6 +178,7 @@
     background-image: url(./../img/more_learn2.png);
     transition-duration: 0.5s;
 }
+
 
 
 
