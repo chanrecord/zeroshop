@@ -37,6 +37,7 @@
     color: rgb(19, 185, 19);
     font-style: oblique;
 }
+
 .goods{
     display: flex;
     justify-content: center;
@@ -173,11 +174,13 @@
     margin: 0 auto;
     background-image: url(./../img/more_learn1.png);
     background-size: cover;
+    transition-duration: 0.9s;
 }
 .more_learn:hover{
     background-image: url(./../img/more_learn2.png);
-    transition-duration: 0.5s;
+    transition-duration: 0.9s;
 }
+
 
 
 
